@@ -22,6 +22,7 @@
         echo "<p>Nenhum ID de cliente recebido para associar o cartão.</p>";
         exit(); // Encerra o script se não houver ID de cliente
     }
+    
     ?>
 
     <h2>Adicionar Cartão</h2>
