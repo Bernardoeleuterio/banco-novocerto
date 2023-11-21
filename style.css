@@ -1,0 +1,411 @@
+/* styles.css */
+/*Tela de login*/
+.page-index body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+/*.page-index body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .page-index .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .page-index h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .page-index .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .page-index label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .page-index input[type="text"],
+  .page-index input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .page-index button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .page-index button:hover {
+    background-color: #0056b3;
+  }
+*/
+
+/*Home page */
+ .page-home body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .page-home header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+
+        }
+        .page-home h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .page-home .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .page-home table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .page-home th, td {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+        .page-home th {
+            background-color: #004080;
+            color: white;
+        }
+        .page-home td span {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .page-home input[type="submit"] {
+            background-color: #004080;
+            color: white;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .page-home input[type="submit"]:hover {
+            background-color: #003366;
+        }
+        .page-home label {
+            margin-bottom: 5px;
+            color: #666;
+            font-size: 100px;
+        }
+        .page-home input[type="text"] {
+            padding: 6px;
+            width: 180px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .page-home .actions {
+            display: flex;
+            gap: 5px;
+        }
+        .page-home .actions form input[type="submit"]:hover,
+
+        .page-home .search-bar input[type="submit"]:hover {
+            /* Estilos dos botões ao passar o mouse */
+            background-color: #003366;
+            color: white;
+        }
+        .page-home .search-bar {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .page-home .search-bar input[type="text"],
+        .page-home .search-bar input[type="submit"] {
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .page-home .search-bar input[type="text"] {
+            width: 300px;
+            margin-right: 10px;
+        }
+
+        .page-home .search-bar input[type="submit"] {
+            background-color: #004080;
+            color: white;
+            cursor: pointer;
+        }
+
+        .page-home  .search-bar input[type="submit"]:hover {
+            background-color: #003366;
+        }
+        .page-home .new-client-button {
+            /* Estilos para o botão Cadastrar Novo Cliente */
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            background-color: #004080;
+            color: white;
+        }
+
+        .new-client-button:hover {
+            background-color: #003366;
+        }
+        .logout-form {
+            position: absolute;
+            top: 10px;
+            
+            left: 1230px;
+        }
+
+        .logout-form input[type="submit"] {
+            background-color: #FF0000; /* Vermelho */
+            color: white; /* Texto branco */
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .logout-form input[type="submit"]:hover {
+            background-color: #CC0000; /* Tonalidade mais escura de vermelho ao passar o mouse */
+        }
+
+       
+    
+       
+        .page-home.header-content {
+          float: right;
+            top: 10px;
+            left: 10px;
+        }
+      
+        .page-home.gerente {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: white;
+    }
+
+    header {
+        position: relative;
+        background-color: #004080;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .header-content {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .header-content p {
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    
+   
+    /*Pagina de cadastro de cliente*/
+
+
+
+    .page-cadastro-cliente body {
+        /* Estilos para o corpo da página */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+
+    .page-cadastro-cliente header {
+        /* Estilos para o cabeçalho */
+        background-color: #004080;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .page-cadastro-cliente h1 {
+        /* Estilos para o título */
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .page-cadastro-cliente .container {
+        /* Estilos para o contêiner principal */
+        width: 30%;
+        min-width: 300px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-cadastro-cliente label {
+        /* Estilos para os rótulos */
+        display: block;
+        margin-bottom: 5px;
+        color: #666;
+    }
+
+    .page-cadastro-cliente[type="text"],
+    .page-cadastro-cliente[type="email"],
+    .page-cadastro-cliente[type="tel"] {
+            padding: 8px;
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+    .page-cadastro-cliente [type="submit"] {
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    .page-cadastro-cliente input[type="submit"] {
+        /* Estilos para o botão de submit */
+        background-color: #004080;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .page-cadastro-cliente input[type="submit"]:hover {
+        /* Estilos para o hover do botão de submit */
+        background-color: #003366;
+    }
+    /* Visualizar cliente*/
+    .page-visualizar-cliente body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        margin-top: 0;
+    }
+    p {
+        margin: 5px 0;
+    }
+    a {
+        text-decoration: none;
+        color: #004080;
+        display: inline-block;
+        margin-top: 10px;
+        border: 1px solid #004080;
+        padding: 8px 15px;
+        border-radius: 4px;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: #004080;
+        color: white;
+    }
