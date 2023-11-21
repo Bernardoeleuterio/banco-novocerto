@@ -239,9 +239,8 @@
         }
         .logout-form {
             position: absolute;
-            top: 10px;
-            
-            left: 1230px;
+            top: 0.3em;
+            left: 110em;
         }
 
         .logout-form input[type="submit"] {

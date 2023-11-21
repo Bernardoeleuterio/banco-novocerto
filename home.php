@@ -38,6 +38,7 @@ if (!$result) {
     <title>Lista de Clientes - Banco XYZ</title>
     <!-- Seus estilos CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body class="page-home">
 
@@ -71,9 +72,11 @@ if (!$result) {
         ?>
         
         <!-- Botão de Sair -->
+        
         <form class="logout-form" method="post" action="logout.php">
             <input type="submit" value="Sair">
         </form>
+ 
     </nav>
 </header>
 

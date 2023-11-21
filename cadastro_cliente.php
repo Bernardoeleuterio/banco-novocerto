@@ -4,6 +4,7 @@
     <title>Cadastro de Cliente - Banco XYZ</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="scripts.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body class="page-cadastro-cliente">
 

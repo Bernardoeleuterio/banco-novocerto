@@ -3,6 +3,7 @@
 <head>
     <title>Excluir Cliente - Banco XYZ</title>
     <link rel="stylesheet" type="text/css" href="style.css"> <!-- Seus estilos CSS -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body class="page-excluir-cliente">
 
